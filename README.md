@@ -1,6 +1,22 @@
 # Bayesian DistNet
 This repository contains code for modeling algorithm runtime prediction using Bayesian neural networks. We follow a similar structure to [DistNet](https://github.com/KEggensperger/DistNet). We utilize [Pytorch](https://github.com/pytorch/pytorch), along with an open source Pytorch [Bayesian layer library](https://github.com/kumar-shridhar/PyTorch-BayesianCNN).
 
+## Citation
+Please cite our work as the following:
+```
+@article{Tuero_Buro_2021, 
+    title={Bayes DistNet - A Robust Neural Network for Algorithm Runtime Distribution Predictions}, 
+    volume={35}, 
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/17473}, 
+    number={14}, 
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+    author={Tuero, Jake and Buro, Michael}, 
+    year={2021}, 
+    month={May}, 
+    pages={12418-12426} 
+}
+```
+
 ## Data
 We use the same data as [DistNet](https://github.com/KEggensperger/DistNet), which can be found on their page. Place the contents in `./data/`.
 
